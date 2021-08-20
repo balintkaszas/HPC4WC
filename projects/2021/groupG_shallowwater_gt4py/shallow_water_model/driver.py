@@ -70,3 +70,5 @@ if (save > 0):
     # Save v
     with open(baseName + 'v', 'wb') as f:
         pickle.dump([M, N, t, phi, theta, v], f, protocol = 2)
+
+        #test
